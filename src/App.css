@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+.PanelSeason {
+  position: absolute;
+  z-index: 900;
+  left: 10px;
+  
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+.ImgSeason {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 70px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Map {
+  position: absolute;
+  z-index: 1000;
+  left: 10px;
+  width: 470px;
+  border-radius: 5%;
+  bottom: 10px;
+  background-color: white;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+            
+}
+.ImgMap {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 450px;
+}
+.ImgMetka {
+  z-index: 2000;
+  position: absolute;
+  
+  width: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Close {
+  z-index: 2000;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+}
+#Metka_6 {
+  top: 30px;
+  left: 238px;
+}
+#Metka_5 {
+  top: 30px;
+  left: 265px;
+}
+#Metka_4 {
+  top: 200px;
+  left: 125px;
+}
+#Metka_3 {
+  top: 260px;
+  left: 55px;
+}
+#Metka_2 {
+  top: 425px;
+  left: 90px;
+}
+#Metka_1 {
+  top: 334px;
+  left: 285px;
+}
+
+#Metka_0 {
+  top: 240px;
+  left: 285px;
+}
+@media (max-width: 768px) {
+  .Map {
+    width: 310px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .ImgMap {
+    width: 300px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  #Metka_5 {
+    top: 4px;
+    left: 172.8px;
   }
+  #Metka_4 {
+    top: 117px;
+    left: 79.7px;
+  }
+  
+  #Metka_2 {
+    top: 267px;
+    left: 56px;
+  }
+  #Metka_1 {
+    top: 207px;
+    left: 186px;
+  }
+
+}
+.IconMap {
+  z-index: 1000;
+  position: absolute;
+  bottom:10px;
+  left:10px;
+  width: 60px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+.SeasonSelected {
+  border-radius: 8px;
+  border-color: grey;
+  border-width: 2px;
+  border-style: solid;
 }
